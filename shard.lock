@@ -8,6 +8,10 @@ shards:
     github: luckyframework/avram
     version: 0.12.2
 
+  baked_file_system:
+    github: schovi/baked_file_system
+    commit: e1447549d5ac0560720fae62179b2f2c62c9bfd1
+
   blank:
     github: kostya/blank
     version: 0.1.0
@@ -40,6 +44,22 @@ shards:
     github: luckyframework/habitat
     version: 0.4.3
 
+  kemal:
+    github: kemalcr/kemal
+    commit: 4d6fb0614f29aa02254913dc6ed69b0cb148fa81
+
+  kemal-csrf:
+    github: kemalcr/kemal-csrf
+    version: 0.5.0
+
+  kemal-session:
+    github: kemalcr/kemal-session
+    commit: a16f164d3dcfc6e720d566f9085285abdd5b7825
+
+  kilt:
+    github: jeromegn/kilt
+    version: 0.4.0
+
   lucky:
     github: luckyframework/lucky
     version: 0.18.2
@@ -60,6 +80,18 @@ shards:
     github: will/crystal-pg
     version: 0.19.0
 
+  pool:
+    github: ysbaddaden/pool
+    version: 0.2.3
+
+  radix:
+    github: luislavena/radix
+    version: 0.3.9
+
+  redis:
+    github: stefanwille/crystal-redis
+    version: 2.5.3
+
   selenium:
     github: ysbaddaden/selenium-webdriver-crystal
     commit: bda2fd406c1a118251c5a2883f1e1f3af242116e
@@ -67,6 +99,10 @@ shards:
   shell-table:
     github: luckyframework/shell-table.cr
     commit: 078a04ea58ead5203bb435a3b5fff448ddabaeea
+
+  sidekiq:
+    github: mperham/sidekiq.cr
+    commit: ea41d5e24d0ce9630d3c84c708f9ab6cc13d00a7
 
   teeplate:
     github: luckyframework/teeplate
